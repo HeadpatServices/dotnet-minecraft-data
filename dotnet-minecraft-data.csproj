@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RootNamespace>dotnet_minecraft_data</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Content Remove="minecraft-data/**" />
+    </ItemGroup>
+    <ItemGroup>
+        <EmbeddedResource Include="minecraft-data/**" />
+    </ItemGroup>
+
+</Project>
